@@ -1,0 +1,6 @@
+coverage
+flake8
+pillow
+sphinx
+sphinx-gallery
+wheel
