@@ -26,6 +26,7 @@ extensions = [
 ]
 
 templates_path = ['_templates']
+html_logo = 'logo.png'
 source_suffix = '.rst'
 master_doc = 'index'
 project = 'td2a_plotting'
