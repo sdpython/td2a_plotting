@@ -1,7 +1,4 @@
 
-.. image:: _static/logo.png
-    :width: 50
-
 td2a_plotting: simple plotting module
 =====================================
 
