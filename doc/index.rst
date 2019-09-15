@@ -17,5 +17,4 @@ Sources available on
 *Indices and tables*
 
 * :ref:`genindex`
-* :ref:`modindex`
 * `Code coverage <coverage.html>`_
