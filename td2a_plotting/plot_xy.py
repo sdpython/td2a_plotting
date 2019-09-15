@@ -22,7 +22,10 @@ def plot_xy(data, label=None, markersize=4, color=None, ax=None, **kwargs):
 
     .. plot::
 
+        import numpy
         import matplotlib.pyplot as plt
+        from td2a_plotting import plot_xy
+
         fig, ax = plt.subplots(1, 1)
         data = numpy.random.rand(10, 2)
         plot_xy(data, ax=ax)
