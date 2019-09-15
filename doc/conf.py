@@ -11,16 +11,19 @@ sys.path.insert(
             '..')))
 from td2a_plotting import __version__  # noqa
 
-extensions = ['sphinx.ext.autodoc',
-              'sphinx.ext.intersphinx',
-              'sphinx.ext.todo',
-              'sphinx.ext.coverage',
-              'sphinx.ext.mathjax',
-              'sphinx.ext.ifconfig',
-              'sphinx.ext.viewcode',
-              'sphinx.ext.githubpages',
-              'sphinx_gallery.gen_gallery',
-              'alabaster']
+extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.todo',
+    'sphinx.ext.coverage',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.ifconfig',
+    'sphinx.ext.viewcode',
+    'sphinx.ext.githubpages',
+    'sphinx_gallery.gen_gallery',
+    'alabaster',
+    'matplotlib.sphinxext.plot_directive',
+]
 
 templates_path = ['_templates']
 source_suffix = '.rst'
