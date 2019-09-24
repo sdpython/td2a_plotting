@@ -10,7 +10,7 @@ td2a_plotting
 
 Simple template to package plotting functions. Material for teaching
 `ensae_teaching_cs <https://github.com/sdpython/ensae_teaching_cs>`_.
-It implements basic CI and documentation. One example of use
+It implements basic CI and documentation. One example of use:
 `plot_plot_xy.py
 <https://github.com/sdpython/td2a_plotting/blob/master/examples/plot_plot_xy.py>`_.
 
