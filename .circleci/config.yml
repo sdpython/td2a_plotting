@@ -37,8 +37,8 @@ jobs:
           name: flake8
           command: |
             . venv/bin/activate
-            python -m flake8 td1a_unit_test_ci
             python -m flake8 tests
+            python -m flake8 td2a_plotting
             python -m flake8 examples
 
       - run:

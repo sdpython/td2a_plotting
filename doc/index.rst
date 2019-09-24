@@ -10,6 +10,7 @@ a plotting function.
 
     plots
     auto_examples/index
+    dev
 
 Sources available on
 `github/td2a_plotting <https://github.com/sdpython/td2a_plotting>`_.
