@@ -1,5 +1,5 @@
 """
-Unit tests for ``polynom.py``.
+Unit tests for ``plot_xy``.
 """
 import unittest
 import numpy
