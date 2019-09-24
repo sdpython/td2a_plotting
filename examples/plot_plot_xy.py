@@ -2,7 +2,7 @@
 Example with sphinx-gallery
 ===========================
 
-Simple exemple avec `sphinx-gallery
+Simple example avec `sphinx-gallery
 <https://github.com/sphinx-gallery/sphinx-gallery>`_.
 
 Dummy example with `sphinx-gallery
