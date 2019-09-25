@@ -30,7 +30,7 @@ Run the unit tests:
 
 ::
 
-    python -m unittest discover tests examples
+    python -m unittest discover tests
 
 Or:
 
@@ -42,4 +42,4 @@ To check style:
 
 ::
 
-    python -m flake8 td2a_plotting tests
+    python -m flake8 td2a_plotting tests examples
