@@ -4,6 +4,8 @@ from distutils.core import setup
 from setuptools import find_packages
 
 here = os.path.dirname(__file__)
+if here == "":
+    here = '.'
 packages = find_packages(where=here)
 package_dir = {k: os.path.join(here, k.replace(".", "/")) for k in packages}
 
