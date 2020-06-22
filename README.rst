@@ -2,6 +2,10 @@
 .. image:: https://circleci.com/gh/sdpython/td2a_plotting/tree/master.svg?style=svg
     :target: https://circleci.com/gh/sdpython/td2a_plotting/tree/master
 
+.. image:: https://img.shields.io/github/repo-size/sdpython/td2a_plotting
+    :target: https://github.com/sdpython/td2a_plotting/
+    :alt: size
+
 td2a_plotting
 =============
 
