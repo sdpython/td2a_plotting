@@ -32,10 +32,10 @@ def plot_xy(data, label=None, markersize=4, color=None, ax=None, **kwargs):
         plt.show()
     """
     if not isinstance(data, numpy.ndarray):
-        raise TypeError("data must be an array not {}".format(type(data)))
+        raise TypeError(f"data must be an array not {type(data)}")
     if len(data.shape) != 2:
         raise ValueError(
-            "data must be a matrix but shape is {}".format(data.shape))
+            f"data must be a matrix but shape is {data.shape}")
     if data.shape[1] != 2:
         raise ValueError("data must be a matrix with two columns shape is {}"
                          "".format(data.shape))
