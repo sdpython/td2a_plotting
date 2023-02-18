@@ -31,13 +31,13 @@ class TestPlotxy(unittest.TestCase):
     def test_graph_noax(self):
         data = numpy.random.rand(10, 2)
         ax = plot_xy(data)
-        self.assertTrue("AxesSubplot" in str(ax))
+        self.assertTrue("Axes" in str(ax))
         plt.clf()
 
     def test_graph_label(self):
         data = numpy.random.rand(10, 2)
         ax = plot_xy(data, label="data")
-        self.assertTrue("AxesSubplot" in str(ax))
+        self.assertTrue("Axes" in str(ax))
         plt.clf()
 
 
